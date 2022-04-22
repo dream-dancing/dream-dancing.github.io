@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(8, 8, 8);
+    background-image: url("dreamDancing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 99%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    margin: 0%;
+    padding-top: 2%;
+}
+
+#hero{
+    color: white;
+    background-color: black;
+
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav{
+    background-color: goldenrod;
+}
+    .navegacion{
+        color: black;
+        
+        padding: 10px;
+        display: inline-block;
+
+        text-decoration: none;
+    }
+        .navegacion:hover{
+            background-color: gold;
+        }
+            .menu-fixed{
+                position: fixed;
+                z-index: 1000;
+                top: 0;
+                width: 100%;
+            }
+
+section{
+    color: white;
+    background-color: rgb(30, 30, 30);
+
+    margin: 3%;
+    padding: 3%;
+}
+#nosotros{margin-top: 50px; padding: 5%;  border: 2px solid goldenrod;}
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#contact{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    padding: 3%;
+    text-align: center;
+
+    background-color: white;
+}
+            
+
+footer{
+    color: white;
+    background-color: rgb(50, 50, 50);
+
+    text-align: center;
+    padding: 1%;
+    position: bottom;
+}
+    .instagram{
+        width: 50px;
+    }
+    .facebook{
+        width: 50px;
+    }
