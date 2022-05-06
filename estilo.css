@@ -50,6 +50,9 @@ section{
 }
 #nosotros{margin-top: 50px; padding: 5%;  border: 2px solid goldenrod;}
 
+.ins{text-align: center;}
+.img-ins{width: 100%;}
+
 .video{
     position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
@@ -69,7 +72,6 @@ section{
 }
 
 
-
 #contact{
     margin-right: 20%;
     margin-left: 20%;
@@ -77,7 +79,12 @@ section{
     padding: 3%;
     text-align: center;
 
-    background-color: white;
+    background-color: rgb(10, 10, 10);
+    color: gold;
+}
+
+.contact{
+    border: 5px dashed white;
 }
             
 
